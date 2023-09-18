@@ -14,10 +14,10 @@ const team1 = [...players];
 const cap1 = { ...person };
 
 // Example: Modifying a property in the original players array
-players.push("Sarah");
+players.push("Poppy");
 
 // Example: Modifying a property in the original person object
-person.name = "Jane Smith";
+person.name = "John Doe";
 
 console.log("team:", team);   // This will show the updated players array (including Sarah)
 console.log("team1:", team1); // This will show the original players array
